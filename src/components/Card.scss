@@ -1,0 +1,108 @@
+.card{
+    width: 318px;
+    height: unset;
+    margin: 44px 116px;
+    background-color: #1A1B21;
+    border-radius: 10px 10px 10px 10px;
+    .imgwrapper{
+        img{
+            object-fit: cover;
+            width: 318px;
+            height: 318px;
+            border-radius: 10px 10px 0px 0px;
+            }
+    }
+    .mainwrapper{
+        color: white;
+        width: 90%;
+        margin: auto;
+        h1{
+            font-size:26px;
+        }
+        h3{
+            font-size:13px;
+            color: #F3BF99;
+        }
+        p{
+            font-size:11px;
+        }
+        .btnwrapper{
+            color: white;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            button{
+                font-size: 14px;
+                width: 116px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 9px 13px 9px 11px;
+                gap: 8px;
+                border: none;
+                border-radius: 6px;
+                margin: 8px;
+                &:first-child{
+                    color: black;
+                background-color: white;
+                }
+                &:nth-child(2){
+                    color: white;
+                    background-color: #5093E2;
+                }
+                #mailspan{
+                    img{
+                        object-fit: cover;
+                        width: 14px;
+                        height: unset;    
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                }
+                #linkedinspan{
+                    img{
+                        object-fit: cover;
+                        width: 14px;
+                        height: unset;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;    
+                    }
+                }
+            }
+        }   
+    }
+    .cntwrapper{
+        color: white;
+        width: 100%;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        text-align: left;
+        h2{
+            margin-bottom: 6px;
+        }
+    }
+    .snswrapper{
+        height: 64px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background-color: #161619;
+        border-radius: 0 0 10px 10px;
+        img{
+            object-fit: cover;
+            width: 25px;
+            height: unset;
+            display: flex;
+            justify-content: center;
+            align-items: center;    
+            margin: 12px;
+        }
+    }
+}
+
